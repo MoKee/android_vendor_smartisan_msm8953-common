@@ -1542,7 +1542,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/smartisan/oscar/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/smartisan/oscar/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/smartisan/oscar/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/smartisan/oscar/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/hw/bluetooth.msm8953.so:system/vendor/lib/hw/bluetooth.msm8953.so \
     vendor/smartisan/oscar/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
