@@ -201,6 +201,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO800_3968x1984.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO800_3968x1984.ncf \
     vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO800_4160x2340.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO800_4160x2340.ncf \
     vendor/smartisan/oscar/proprietary/etc/sensor_denoise_table/ov13855_truly/ISO800_4160x3120.ncf:system/etc/sensor_denoise_table/ov13855_truly/ISO800_4160x3120.ncf \
+    vendor/smartisan/oscar/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/smartisan/oscar/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/smartisan/oscar/proprietary/etc/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/wifi/WCNSS_qcom_wlan_nv.bin \
     vendor/smartisan/oscar/proprietary/etc/wifi/WCNSS_wlan_dictionary.dat:system/etc/wifi/WCNSS_wlan_dictionary.dat \
@@ -230,6 +231,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/lib/libmms_warper_vstab.so:system/lib/libmms_warper_vstab.so \
     vendor/smartisan/oscar/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/smartisan/oscar/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/smartisan/oscar/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/smartisan/oscar/proprietary/lib/libtt_panorama.so:system/lib/libtt_panorama.so \
     vendor/smartisan/oscar/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/smartisan/oscar/proprietary/lib64/hw/blestech.fingerprint.default.so:system/lib64/hw/blestech.fingerprint.default.so \
@@ -244,6 +246,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/lib64/libifaa_daemon.so:system/lib64/libifaa_daemon.so \
     vendor/smartisan/oscar/proprietary/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so \
     vendor/smartisan/oscar/proprietary/vendor/lib64/libnotifyaudiohal.so:system/vendor/lib64/libnotifyaudiohal.so \
+    vendor/smartisan/oscar/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/smartisan/oscar/proprietary/lib64/libxuFPAlg.so:system/lib64/libxuFPAlg.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/smartisan/oscar/proprietary/vendor/lib/libactuator_ad5816g.so:system/vendor/lib/libactuator_ad5816g.so \
@@ -1656,7 +1659,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/oscar/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/smartisan/oscar/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/smartisan/oscar/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
-    vendor/smartisan/oscar/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/smartisan/oscar/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/smartisan/oscar/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/smartisan/oscar/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
