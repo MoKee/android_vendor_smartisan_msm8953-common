@@ -63,6 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/smartisan/msm8953-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/smartisan/msm8953-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/hw/bluetooth.msm8953.so:system/vendor/lib/hw/bluetooth.msm8953.so \
     vendor/smartisan/msm8953-common/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
@@ -197,13 +198,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/hw/keystore.msm8953.so:system/vendor/lib/hw/keystore.msm8953.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/hw/sound_trigger.primary.msm8953.so:system/vendor/lib/hw/sound_trigger.primary.msm8953.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/hw/vulkan.msm8953.so:system/vendor/lib/hw/vulkan.msm8953.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/lib-imscmservice.so:system/vendor/lib/lib-imscmservice.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/lib-siputility.so:system/vendor/lib/lib-siputility.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/lib-uceservice.so:system/vendor/lib/lib-uceservice.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
@@ -242,7 +237,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libcneoplookup.so:system/vendor/lib/libcneoplookup.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libdpmqmihal.so:system/vendor/lib/libdpmqmihal.so \
@@ -265,8 +259,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/liboemaids_vendor.so:system/vendor/lib/liboemaids_vendor.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -360,7 +352,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/lib-siputility.so:system/vendor/lib64/lib-siputility.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/lib-uceservice.so:system/vendor/lib64/lib-uceservice.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
@@ -443,7 +434,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/liboemaids_vendor.so:system/vendor/lib64/liboemaids_vendor.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libperfgluelayer.so:system/vendor/lib64/libperfgluelayer.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
