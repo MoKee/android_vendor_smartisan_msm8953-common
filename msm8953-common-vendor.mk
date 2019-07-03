@@ -34,9 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/firmware/wlan/prima/WCNSS_cfg.dat:system/vendor/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/smartisan/msm8953-common/proprietary/lib/libifaa_daemon.so:system/lib/libifaa_daemon.so \
     vendor/smartisan/msm8953-common/proprietary/lib/libifaa_jni.so:system/lib/libifaa_jni.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/lib_ifaa_tac.so:system/lib64/lib_ifaa_tac.so \
@@ -581,6 +578,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libadsp_default_listener.so:system/vendor/lib64/libadsp_default_listener.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libalarmservice_jni.so:system/vendor/lib64/libalarmservice_jni.so \
+    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libaptXHD_encoder.so:system/vendor/lib64/libaptXHD_encoder.so \
+    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libbase64.so:system/vendor/lib64/libbase64.so \
