@@ -38,7 +38,11 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/lib/libifaa_jni.so:system/lib/libifaa_jni.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/lib_ifaa_tac.so:system/lib64/lib_ifaa_tac.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/libifaa_daemon.so:system/lib64/libifaa_daemon.so \
-    vendor/smartisan/msm8953-common/proprietary/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so
+    vendor/smartisan/msm8953-common/proprietary/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so \
+    vendor/smartisan/msm8953-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
+    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so
 
 PRODUCT_PACKAGES += \
     ifaa_fw
@@ -226,7 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/sensors.qti:system/vendor/bin/sensors.qti \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
-    vendor/smartisan/msm8953-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
@@ -262,7 +265,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -686,7 +688,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libsubsystem_control.so:system/vendor/lib64/libsubsystem_control.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libtinyxml2_1.so:system/vendor/lib64/libtinyxml2_1.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
@@ -753,7 +754,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.2 \
     libgpustats \
     libsdm-disp-vndapis \
-    libthermalclient \
     libtime_genoff \
     libloc_api_v02 \
     QtiSystemService \
