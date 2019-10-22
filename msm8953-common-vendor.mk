@@ -47,55 +47,31 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ifaa_fw
 PRODUCT_COPY_FILES += \
-    vendor/smartisan/msm8953-common/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/smartisan/msm8953-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/smartisan/msm8953-common/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
-    vendor/smartisan/msm8953-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/smartisan/msm8953-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
-    vendor/smartisan/msm8953-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/smartisan/msm8953-common/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
-    vendor/smartisan/msm8953-common/proprietary/etc/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/smartisan/msm8953-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/smartisan/msm8953-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar:system/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar:system/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/com.qualcomm.qti.uceservice-V2.0-java.jar:system/framework/com.qualcomm.qti.uceservice-V2.0-java.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/com.quicinc.cne.api-V1.1-java.jar:system/framework/com.quicinc.cne.api-V1.1-java.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar:system/framework/com.quicinc.cne.constants-V1.0-java.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/com.quicinc.cne.constants-V2.0-java.jar:system/framework/com.quicinc.cne.constants-V2.0-java.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/com.quicinc.cne.constants-V2.1-java.jar:system/framework/com.quicinc.cne.constants-V2.1-java.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/com.quicinc.cne.server-V1.0-java.jar:system/framework/com.quicinc.cne.server-V1.0-java.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/com.quicinc.cne.server-V2.0-java.jar:system/framework/com.quicinc.cne.server-V2.0-java.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:system/framework/com.quicinc.cne.server-V2.1-java.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:system/framework/com.quicinc.cne.server-V2.2-java.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/smartisan/msm8953-common/proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar:system/framework/vendor.qti.hardware.data.latency-V1.0-java.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar:system/framework/vendor.qti.ims.callinfo-V1.0-java.jar \
     vendor/smartisan/msm8953-common/proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:system/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar \
-    vendor/smartisan/msm8953-common/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib/com.qualcomm.qti.imscmservice@2.0.so:system/lib/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib/com.qualcomm.qti.imscmservice@2.1.so:system/lib/com.qualcomm.qti.imscmservice@2.1.so \
@@ -107,10 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/lib/libGPTEE_system.so:system/lib/libGPTEE_system.so \
     vendor/smartisan/msm8953-common/proprietary/lib/libQTEEConnector_system.so:system/lib/libQTEEConnector_system.so \
     vendor/smartisan/msm8953-common/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
-    vendor/smartisan/msm8953-common/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
-    vendor/smartisan/msm8953-common/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
-    vendor/smartisan/msm8953-common/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
-    vendor/smartisan/msm8953-common/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
     vendor/smartisan/msm8953-common/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/smartisan/msm8953-common/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/smartisan/msm8953-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
@@ -126,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/lib/vendor.qti.gnss@1.1.so:system/lib/vendor.qti.gnss@1.1.so \
     vendor/smartisan/msm8953-common/proprietary/lib/vendor.qti.gnss@1.2.so:system/lib/vendor.qti.gnss@1.2.so \
     vendor/smartisan/msm8953-common/proprietary/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:system/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
@@ -137,8 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/lib/vendor.qti.ims.callinfo@1.0.so:system/lib/vendor.qti.ims.callinfo@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib/vendor.qti.ims.rcsconfig@1.0.so:system/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/lib/vendor.qti.latency@2.0.so:system/lib/vendor.qti.latency@2.0.so \
-    vendor/smartisan/msm8953-common/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/lib64/com.qualcomm.qti.imscmservice@2.1.so \
@@ -151,10 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/lib64/libGPTEE_system.so:system/lib64/libGPTEE_system.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/libQTEEConnector_system.so:system/lib64/libQTEEConnector_system.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
-    vendor/smartisan/msm8953-common/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
-    vendor/smartisan/msm8953-common/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
-    vendor/smartisan/msm8953-common/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
-    vendor/smartisan/msm8953-common/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
@@ -173,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/lib64/vendor.qti.gnss@1.1.so:system/lib64/vendor.qti.gnss@1.1.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/vendor.qti.gnss@1.2.so:system/lib64/vendor.qti.gnss@1.2.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:system/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
@@ -184,11 +148,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/lib64/vendor.qti.ims.callinfo@1.0.so:system/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/lib64/vendor.qti.latency@2.0.so:system/lib64/vendor.qti.latency@2.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/ATFWD-daemon:system/vendor/bin/ATFWD-daemon \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
-    vendor/smartisan/msm8953-common/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/diag_callback_sample:system/vendor/bin/diag_callback_sample \
@@ -197,7 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/diag_mdlog:system/vendor/bin/diag_mdlog \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/diag_socket_log:system/vendor/bin/diag_socket_log \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/diag_uart_log:system/vendor/bin/diag_uart_log \
-    vendor/smartisan/msm8953-common/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
@@ -234,25 +195,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
     vendor/smartisan/msm8953-common/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile6.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile7.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml \
-    vendor/smartisan/msm8953-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
@@ -267,20 +209,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
     vendor/smartisan/msm8953-common/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:system/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so:system/vendor/lib/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@2.1.so:system/vendor/lib/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.0.so:system/vendor/lib/com.qualcomm.qti.uceservice@2.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.quicinc.cne.api@1.1.so:system/vendor/lib/com.quicinc.cne.api@1.1.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so:system/vendor/lib/com.quicinc.cne.constants@2.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.quicinc.cne.constants@2.1.so:system/vendor/lib/com.quicinc.cne.constants@2.1.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.quicinc.cne.server@1.0.so:system/vendor/lib/com.quicinc.cne.server@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.quicinc.cne.server@2.0.so:system/vendor/lib/com.quicinc.cne.server@2.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.quicinc.cne.server@2.1.so:system/vendor/lib/com.quicinc.cne.server@2.1.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/com.quicinc.cne.server@2.2.so:system/vendor/lib/com.quicinc.cne.server@2.2.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -355,15 +287,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libbt-hidlclient.so:system/vendor/lib/libbt-hidlclient.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libcneoplookup.so:system/vendor/lib/libcneoplookup.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libdpmqmihal.so:system/vendor/lib/libdpmqmihal.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -445,9 +372,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libvpplibrary.so:system/vendor/lib/libvpplibrary.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libvqzip.so:system/vendor/lib/libvqzip.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so:system/vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so:system/vendor/lib/qcdrm/playready/lib/libtzplayready_customer.so \
@@ -462,12 +387,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.display.color@1.1.so:system/vendor/lib/vendor.display.color@1.1.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.display.color@1.2.so:system/vendor/lib/vendor.display.color@1.2.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.display.postproc@1.0.so:system/vendor/lib/vendor.display.postproc@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.data.factory@1.0.so:system/vendor/lib/vendor.qti.data.factory@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:system/vendor/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.gnss@1.1.so:system/vendor/lib/vendor.qti.gnss@1.1.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.gnss@1.2.so:system/vendor/lib/vendor.qti.gnss@1.2.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:system/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0.so:system/vendor/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.hardware.data.qmi@1.0.so:system/vendor/lib/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:system/vendor/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:system/vendor/lib/vendor.qti.hardware.iop@1.0.so \
@@ -496,23 +419,12 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so:system/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.latency@2.0.so:system/vendor/lib/vendor.qti.latency@2.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:system/vendor/lib/vendor.qti.voiceprint@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:system/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.quicinc.cne.api@1.1.so:system/vendor/lib64/com.quicinc.cne.api@1.1.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.quicinc.cne.constants@2.0.so:system/vendor/lib64/com.quicinc.cne.constants@2.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.quicinc.cne.constants@2.1.so:system/vendor/lib64/com.quicinc.cne.constants@2.1.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.quicinc.cne.server@1.0.so:system/vendor/lib64/com.quicinc.cne.server@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.quicinc.cne.server@2.0.so:system/vendor/lib64/com.quicinc.cne.server@2.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.quicinc.cne.server@2.1.so:system/vendor/lib64/com.quicinc.cne.server@2.1.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/com.quicinc.cne.server@2.2.so:system/vendor/lib64/com.quicinc.cne.server@2.2.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -589,15 +501,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libbt-hidlclient.so:system/vendor/lib64/libbt-hidlclient.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libc2d30_bltlib.so:system/vendor/lib64/libc2d30_bltlib.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libcneoplookup.so:system/vendor/lib64/libcneoplookup.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libdpmqmihal.so:system/vendor/lib64/libdpmqmihal.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
@@ -694,8 +601,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libvpplibrary.so:system/vendor/lib64/libvpplibrary.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libvpptestutils.so:system/vendor/lib64/libvpptestutils.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:system/vendor/lib64/mediadrm/libwvdrmengine.so \
@@ -708,13 +613,11 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.display.color@1.1.so:system/vendor/lib64/vendor.display.color@1.1.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.display.color@1.2.so:system/vendor/lib64/vendor.display.color@1.2.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:system/vendor/lib64/vendor.display.postproc@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.data.factory@1.0.so:system/vendor/lib64/vendor.qti.data.factory@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:system/vendor/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:system/vendor/lib64/vendor.qti.gnss@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:system/vendor/lib64/vendor.qti.gnss@1.1.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:system/vendor/lib64/vendor.qti.gnss@1.2.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:system/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0.so:system/vendor/lib64/vendor.qti.hardware.iop@1.0.so \
@@ -744,7 +647,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so:system/vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:system/vendor/lib64/vendor.qti.latency@2.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:system/vendor/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/smartisan/msm8953-common/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
 
@@ -762,8 +664,6 @@ PRODUCT_PACKAGES += \
     embms \
     imssettings \
     uceShimService \
-    CNEService \
-    dpmserviceapp \
     ims \
     qcrilmsgtunnel \
     TimeService
